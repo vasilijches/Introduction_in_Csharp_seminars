@@ -10,7 +10,7 @@ int count = 2;
 
 if (number >= 2)
 {
-    while (count <= number - number % 2)
+    while (count <= number)
     {
         Console.Write(count+" ");
         count += 2;
