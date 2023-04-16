@@ -12,6 +12,7 @@ if (numb1 < 0)
 {
     numb1 = -numb1;
 }
+
 if (numb1 >= 100 && numb1 <= 999)
 {
     Console.WriteLine(SecondDigitCut(numb1));
